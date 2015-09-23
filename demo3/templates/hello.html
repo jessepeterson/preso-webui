@@ -1,0 +1,12 @@
+<html><body>
+Hello world!
+<form method="GET">
+<input name="rebuild" type="submit" value="makecatalogs">
+</form>
+{% if output %}
+	<hr>
+	<pre>
+	{{ output }}
+	</pre>
+{% endif %}
+</body>
